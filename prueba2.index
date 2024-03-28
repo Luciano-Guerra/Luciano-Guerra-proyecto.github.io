@@ -10,7 +10,7 @@
 
 
 <div class="titulo">
-  <h1>¡Bienvenido al Sitio Web!</h1>
+  <h1>¡SUPERMERCADO LOS BUENITOS!</h1>
 
 </div>
 <br>
@@ -21,9 +21,9 @@
 
 <nav id="menu">
   <ul>
-    <li><a href="#">Opción 1</a></li>
-    <li><a href="#">Opción 2</a></li>
-    <li><a href="#">Opción 3</a></li>
+    <li><a href="sobre_nosotros">Sobre Nosotros</a></li>
+    <li><a href="Contacto">Contacto</a></li>
+    <li><a href="Carrito">Carrito</a></li>
     <li><a href="#">Opción 4</a></li>
   </ul>
 </nav>
@@ -33,8 +33,32 @@
   <div class="container">
     
     <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/sal.webp" alt="Producto 1">
+      <p>sal fina 500 gr celusal</p>
+    </div>
+ <div class="product">
+      <img src="img/lays.webp" alt="Producto 1">
+      <p>Papas fritas clasicas Lays x 85 gr</p>
+    </div>
+ <div class="product">
+      <img src="img/caldo.webp" alt="Producto 1">
+      <p>Caldo de verdura Knorr x 12 unidades </p>
+    </div>
+ <div class="product">
+      <img src="img/aceite.webp" alt="Producto 1">
+      <p>Aceite de girasol Pureza c 1,5 L</p>
+    </div>
+ <div class="product">
+      <img src="img/doritos.webp" alt="Producto 1">
+      <p>Nachos sabor queso Doritos x 129 gr</p>
+    </div>
+ <div class="product">
+      <img src="img/espinaca.webp" alt="Producto 1">
+      <p>Espinaca congelada Knorr x 50 gr</p>
+    </div>
+ <div class="product">
+      <img src="img/mayonesa.png" alt="Producto 1">
+      <p>Mayonesa Liviana Doy Pack Hellmanns 475 gr</p>
     </div>
  <div class="product">
       <img src="imagen1.jpg" alt="Producto 1">
@@ -88,31 +112,7 @@
       <img src="imagen1.jpg" alt="Producto 1">
       <p>Pie de texto para Producto 1</p>
     </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
- <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
-    </div>
-    <!-- Repite este div 19 veces para tener un total de 20 productos -->
+    
 
   </div>
 
