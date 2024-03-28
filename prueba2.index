@@ -9,8 +9,8 @@
 <body>
 
 
-<div id = titulo>
-  <h1>Contenido Principal</h1>
+<div class="titulo">
+  <h1>¡Bienvenido al Sitio Web!</h1>
 
 </div>
 <br>

@@ -5,9 +5,17 @@ body {
 }
 
 
-#titulo {
-   text-align: center;
-   background-color: cadetblue;
+.titulo {
+  text-align: center;
+  margin-top: 10px; 
+}
+
+.titulo h1 {
+  font-size: 30px;
+  color: #333; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  font-weight: bold; 
 }
 
 #menu-toggle {
@@ -30,6 +38,7 @@ body {
 }
 
 #menu {
+  margin-bottom: 100px;
   display: none;
   position: fixed;
   top: 0;
