@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Productos</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+
+<div id = titulo>
+  <h1>Contenido Principal</h1>
+
+</div>
+<br>
+<br>
+<div>
+  <input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" id="menu-icon">&#9776;</label>
+
+<nav id="menu">
+  <ul>
+    <li><a href="#">Opción 1</a></li>
+    <li><a href="#">Opción 2</a></li>
+    <li><a href="#">Opción 3</a></li>
+    <li><a href="#">Opción 4</a></li>
+  </ul>
+</nav>
+
+</div>
+
+  <div class="container">
+    
+    <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+ <div class="product">
+      <img src="imagen1.jpg" alt="Producto 1">
+      <p>Pie de texto para Producto 1</p>
+    </div>
+    <!-- Repite este div 19 veces para tener un total de 20 productos -->
+
+  </div>
+
+  <footer>
+   <div><p>SEGUINOS EN NUESTRAS REDES</P></div>
+   
+ <ul class="redes">
+       
+        <li class="icon facebook">
+            <span class="tooltip">Facebook</span>
+            <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+        <li class="icon twitter">
+            <span class="tooltip">Twitter</span>
+            <span><i class="fab fa-twitter"></i></span>
+        </li>
+        <li class="icon instagram">
+            <span class="tooltip">Instagram</span>
+            <span><i class="fab fa-instagram"></i></span>
+        </li>
+
+</ul>
+
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+</script>
+  </footer>
+</body>
+</html>
+
