@@ -6,13 +6,14 @@
   <title>Tienda de Productos</title>
   <link rel="stylesheet" href="styles2.css">
 </head>
+<header>
+  <div class="titulo">
+    <h1>¡SUPERMERCADO LOS BUENITOS!</h1>
+  </div>
+</header>
+
 <body>
 
-
-<div class="titulo">
-  <h1>¡SUPERMERCADO LOS BUENITOS!</h1>
-
-</div>
 <br>
 <br>
 <div>
@@ -24,7 +25,7 @@
     <li><a href="sobre_nosotros">Sobre Nosotros</a></li>
     <li><a href="Contacto">Contacto</a></li>
     <li><a href="Carrito">Carrito</a></li>
-    <li><a href="#">Opción 4</a></li>
+    <li><a href="promociones">Promociones Bancarias</a></li>
   </ul>
 </nav>
 
@@ -35,82 +36,123 @@
     <div class="product">
       <img src="img/sal.webp" alt="Producto 1">
       <p>sal fina 500 gr celusal</p>
+      <h3 style="color: red;"> $300 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/lays.webp" alt="Producto 1">
       <p>Papas fritas clasicas Lays x 85 gr</p>
+      <h3 style="color: red;"> $500 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/caldo.webp" alt="Producto 1">
       <p>Caldo de verdura Knorr x 12 unidades </p>
+      <h3 style="color: red;"> $400 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/aceite.webp" alt="Producto 1">
       <p>Aceite de girasol Pureza c 1,5 L</p>
+      <h3 style="color: red;"> $2.000 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/doritos.webp" alt="Producto 1">
       <p>Nachos sabor queso Doritos x 129 gr</p>
+      <h3 style="color: red;"> $1.500 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/espinaca.webp" alt="Producto 1">
       <p>Espinaca congelada Knorr x 50 gr</p>
+      <h3 style="color: red;"> $1.300 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
       <img src="img/mayonesa.png" alt="Producto 1">
       <p>Mayonesa Liviana Doy Pack Hellmanns 475 gr</p>
+      <h3 style="color: red;"> $1.250</h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/kitkat.png" alt="Producto 1">
+      <p>Oblea Kitkat 4 Fingers X 41.5 Gr</p>
+      <h3 style="color: red;"> $990 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/pepas.webp" alt="Producto 1">
+      <p>Madalenas Vainilla 9 de Oro con Dulce de Leche 230 Gr.</p>
+      <h3 style="color: red;"> $1.350 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/rodhesia.webp" alt="Producto 1">
+      <p>Mini Obleas Bañada En Chocolate Rodhesia 60gr</p>
+      <h3 style="color: red;"> $1.050 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/levute.webp" alt="Producto 1">
+      <p>Agua Saborizada Levité Manzana 2,25 Lts</p>
+      <h3 style="color: red;"> $1.600 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/leche.webp" alt="Producto 1">
+      <p>Leche Entera Clasica La Serenísima Botella Larga Vida 1 Lt.</p>
+      <h3 style="color: red;"> $1.100 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/crema.webp" alt="Producto 1">
+      <p>Crema Para Cocinar La Serenísima 200 Ml</p>
+      <h3 style="color: red;"> $1.350 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/leche en polvo.webp" alt="Producto 1">
+      <p>Leche en Polvo La Serenisima Entera 200 Gr.</p>
+      <h3 style="color: red;"> $2.380 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/pasta dental.webp" alt="Producto 1">
+      <p>Pasta Dental Colgate Triple Acción Tubo Reciclable. 90 Gr</p>
+      <h3 style="color: red;"> $1.340 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/shampoo.webp" alt="Producto 1">
+      <p>Shampoo Nutricion Dove 400Ml</p>
+      <h3 style="color: red;"> $2.700 </h3>
+      <button class="boton">Agregar</button>
+      
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/patitas.webp" alt="Producto 1">
+      <p>Patitas de Pollo Granja del Sol 1,1 Kg</p>
+      <h3 style="color: red;"> $9.600 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/suprema.webp" alt="Producto 1">
+      <p>Supremas de Pollo Granja del Sol 360 Grs.</p>
+      <h3 style="color: red;"> $6.350 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/alimento gato.webp" alt="Producto 1">
+      <p>Adulto Carne Pollo Cat Chow x 3 Kg.</p>
+      <h3 style="color: red;"> $9.350 </h3>
+      <button class="boton">Agregar</button>
     </div>
  <div class="product">
-      <img src="imagen1.jpg" alt="Producto 1">
-      <p>Pie de texto para Producto 1</p>
+      <img src="img/alimento perro.webp" alt="Producto 1">
+      <p>Alimento Seco para Perros Purina One Adultos Minis y Pequeños Pollo y Carne 2 Kg</p>
+      <h3 style="color: red;">$11.340 </h3>
+      <button class="boton">Agregar</button>
     </div>
     
 
