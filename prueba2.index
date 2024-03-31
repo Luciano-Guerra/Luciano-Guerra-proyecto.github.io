@@ -36,7 +36,7 @@
     <div class="product">
       <img src="img/sal.webp" alt="Producto 1">
       <p>sal fina 500 gr celusal</p>
-      <h3 style="color: red;"> $300 </h3>
+      <h3 style="color: red;"> $890 </h3>
       <button class="boton">Agregar</button>
     </div>
  <div class="product">
