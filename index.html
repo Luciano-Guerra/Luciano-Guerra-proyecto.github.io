@@ -2,183 +2,201 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda de Productos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="styles2.css">
+  <title>Tienda de Productos</title>
 </head>
 <body>
-<header>
-  <div class="titulo">
-    <h1>¡SUPERMERCADO LOS BUENITOS!</h1>
-  </div>
-</header>
-<br>
-<br>
-<div>
-  <input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" id="menu-icon">&#9776;</label>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!--titulo-->
+<div class="titulo"> 
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img width="48" height="48" src="https://img.icons8.com/emoji/48/shopping-cart-emoji.png" alt="shopping-cart-emoji"/>
+        ¡SUPERMERCADO LOS BUENITOS!
 
-<nav id="menu">
-  <ul>
-    <li><a href="sobre_nosotros">Sobre Nosotros</a></li>
-    <li><a href="Contacto">Contacto</a></li>
-    <li><a href="Carrito">Carrito</a></li>
-    <li><a href="promociones">Promociones Bancarias</a></li>
-  </ul>
-</nav>
+      </a>  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Carrito</a>
+          <a class="nav-link active" href="#">Promociones</a>
+          <a class="nav-link active" href="#producto">Producto</a>
+          <a class="nav-link active" href="#sobre-Nosotros">Sobre Nosotros</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+			
+  <!--carrusel-->
+  <section id="promociones">
+  <h1>Promociones</h1>
+  <div class="col-12 order-1 col-sm-6 offset-sm-3">
+  
+  <div class="container pt-5">
+  <div id="carrusel" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carrusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/sal.webp" class="d-block w-100 bg-dark">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/aceite.webp" class=" w-100 bg-dark">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/doritos.webp" class=" w-100 bg-dark">
+      </div>
+	  
+	  <div class="carousel-item">
+        <img src="img/pepas.webp" class=" w-100 bg-dark">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+  </div>
 
 </div>
 
-  <div class="container">
-    
-    <div class="product">
-      <img src="img/sal.webp" alt="Producto 1">
-      <p>sal fina 500 gr celusal</p>
-      <h3 style="color: red;"> $890 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/lays.webp" alt="Producto 1">
-      <p>Papas fritas clasicas Lays x 85 gr</p>
-      <h3 style="color: red;"> $500 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/caldo.webp" alt="Producto 1">
-      <p>Caldo de verdura Knorr x 12 unidades </p>
-      <h3 style="color: red;"> $400 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/aceite.webp" alt="Producto 1">
-      <p>Aceite de girasol Pureza c 1,5 L</p>
-      <h3 style="color: red;"> $2.000 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/doritos.webp" alt="Producto 1">
-      <p>Nachos sabor queso Doritos x 129 gr</p>
-      <h3 style="color: red;"> $1.500 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/espinaca.webp" alt="Producto 1">
-      <p>Espinaca congelada Knorr x 50 gr</p>
-      <h3 style="color: red;"> $1.300 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/mayonesa.png" alt="Producto 1">
-      <p>Mayonesa Liviana Doy Pack Hellmanns 475 gr</p>
-      <h3 style="color: red;"> $1.250</h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/kitkat.png" alt="Producto 1">
-      <p>Oblea Kitkat 4 Fingers X 41.5 Gr</p>
-      <h3 style="color: red;"> $990 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/pepas.webp" alt="Producto 1">
-      <p>Madalenas Vainilla 9 de Oro con Dulce de Leche 230 Gr.</p>
-      <h3 style="color: red;"> $1.350 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/rodhesia.webp" alt="Producto 1">
-      <p>Mini Obleas Bañada En Chocolate Rodhesia 60gr</p>
-      <h3 style="color: red;"> $1.050 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/levute.webp" alt="Producto 1">
-      <p>Agua Saborizada Levité Manzana 2,25 Lts</p>
-      <h3 style="color: red;"> $1.600 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/leche.webp" alt="Producto 1">
-      <p>Leche Entera Clasica La Serenísima Botella Larga Vida 1 Lt.</p>
-      <h3 style="color: red;"> $1.100 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/crema.webp" alt="Producto 1">
-      <p>Crema Para Cocinar La Serenísima 200 Ml</p>
-      <h3 style="color: red;"> $1.350 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/leche en polvo.webp" alt="Producto 1">
-      <p>Leche en Polvo La Serenisima Entera 200 Gr.</p>
-      <h3 style="color: red;"> $2.380 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/pasta dental.webp" alt="Producto 1">
-      <p>Pasta Dental Colgate Triple Acción Tubo Reciclable. 90 Gr</p>
-      <h3 style="color: red;"> $1.340 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/shampoo.webp" alt="Producto 1">
-      <p>Shampoo Nutricion Dove 400Ml</p>
-      <h3 style="color: red;"> $2.700 </h3>
-      <button class="boton">Agregar</button>
-      
-    </div>
- <div class="product">
-      <img src="img/patitas.webp" alt="Producto 1">
-      <p>Patitas de Pollo Granja del Sol 1,1 Kg</p>
-      <h3 style="color: red;"> $9.600 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/suprema.webp" alt="Producto 1">
-      <p>Supremas de Pollo Granja del Sol 360 Grs.</p>
-      <h3 style="color: red;"> $6.350 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/alimento gato.webp" alt="Producto 1">
-      <p>Adulto Carne Pollo Cat Chow x 3 Kg.</p>
-      <h3 style="color: red;"> $9.350 </h3>
-      <button class="boton">Agregar</button>
-    </div>
- <div class="product">
-      <img src="img/alimento perro.webp" alt="Producto 1">
-      <p>Alimento Seco para Perros Purina One Adultos Minis y Pequeños Pollo y Carne 2 Kg</p>
-      <h3 style="color: red;">$11.340 </h3>
-      <button class="boton">Agregar</button>
-    </div>
+ </section>
+ <!--Productos-->
+ <h1>Productos</h1>
+ <section id="producto">
+	<div class="container p-3">
+		<div class="row g-3">
+
+			<div class="col-12 col-sm-6 col-lg-3 ">
+				<div class="card text-white text-center bg-dark" >
+					<div class="product">
+						<img src="img/sal.webp" alt="Producto 1" class="col-12 col-sm-6">
+						<p>sal fina 500 gr celusal</p>
+						<h3 style="color: red;"> $890 </h3>
+						<button class="boton">Agregar</button>
+					</div>
+				</div>
+			</div>    
+		
+	
+			<div class="col-12 col-sm-6 col-lg-3">
+		<div class="card text-white text-center bg-dark" >
+			<div class="product">
+				<img src="img/lays.webp" alt="Producto 1" class="col-12 col-sm-6">
+				<p>Papas fritas clasicas Lays x 85 gr</p>
+				<h3 style="color: red;"> $500 </h3>
+				<button class="boton">Agregar</button>
+			</div>
+        </div>
+    </div>    
     
 
-  </div>
-
-  <footer>
-   <div><p>SEGUINOS EN NUESTRAS REDES</P></div>
+			<div class="col-12 col-sm-6 col-lg-3 ">
+        <div class="card text-white text-center bg-dark">
+			<div class="product">
+				<img src="img/caldo.webp" alt="Producto 1" class="col-12 col-sm-6">
+				<p>Caldo de verdura Knorr x 12 unidades </p>
+				<h3 style="color: red;"> $400 </h3>
+				<button class="boton">Agregar</button>
+			</div>
+        </div>
+      </div>    
    
- <ul class="redes">
-       
-        <li class="icon facebook">
-            <span class="tooltip">Facebook</span>
-            <span><i class="fab fa-facebook-f"></i></span>
-        </li>
-        <li class="icon twitter">
-            <span class="tooltip">Twitter</span>
-            <span><i class="fab fa-twitter"></i></span>
-        </li>
-        <li class="icon instagram">
-            <span class="tooltip">Instagram</span>
-            <span><i class="fab fa-instagram"></i></span>
-        </li>
 
-</ul>
+		<div class="col-12 col-sm-6 col-lg-3 ">
+			<div class="card text-white text-center bg-dark">
+				<div class="product">
+					<img src="img/aceite.webp" alt="Producto 1" class="col-12 col-sm-6">
+					<p>Aceite de girasol Pureza c 1,5 L</p>
+					<h3 style="color: red;"> $2.000 </h3>
+					<button class="boton">Agregar</button>
+				</div>
+			</div>
+      </div>  
+	  
+		</div>  
+    </div>
 
-<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
-</script>
-  </footer>
+</section>
+
+
+
+   
+
+<section id="sobre-Nosotros">
+<div class="container justify-content-center responsive-text mt-5">
+  <h1 class="mb-2 fw-bold fst-italic responsive-text">
+    Sobre Nosotros
+  </h1>
+  <p>
+    
+  </p>
+ 
+</div>
+</div>
+
+<div class="container justify-content-center  pt-5 ">
+  <div class="row">
+    <h1>Formulario</h1>
+  </div>
+  <form>
+    <div class="row mb-3 ">
+      <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control bg-gradient" id="inputName">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-lg-10">
+        <input type="email" class="form-control" id="inputEmail">
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label for="exampleFormControlTextare1a" class="col-sm-2 col-form-label">Comentarios:</label>
+      <div class="col-lg-10"> 
+        <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center justify-content-lg-end">
+      <button class="btn btn-danger me-3 bg-danger" type="button">Borrar todo</button>
+      <button class="btn btn-primary" type="button">Enviar</button>
+    </div>
+  </form>
+</div>
+<footer>
+  <div class="main-footer mt-5">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-6 col-sm-6 col-lg-6 text-sm-center text-lg-center  bg-dark btn-dark border border-white">
+            <section>
+              <h1>Contacto:</h1>
+              <p>Mail:</p>
+            </section>
+        </div>
+        <div class="col-6 col-sm-6 col-lg-6 text-sm-center text-lg-center bg-dark btn-dark border border-white">
+              <h1>Gracias</h1>
+              <p>Por comprar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
-
