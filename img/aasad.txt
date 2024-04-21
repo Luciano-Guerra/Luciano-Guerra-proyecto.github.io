@@ -1,0 +1,19 @@
+*cabecera index (*Buscador) [respetar diseño gral]
+*productos (*Buscador) sub-menu div
+	*aborrotes
+	*lacteos
+	*bebidas
+	*tecnologia
+*carrrito
+*nosotros(datos gral)
+*tenes alguna consulta(form)
+	*formulario
+
+*diseño 
+	*logo (isologotipo/logotipo)_creatividad
+
+*color *root (normalizar colors)
+	
+*fuente
+*spam?
+*redes
